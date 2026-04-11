@@ -6,7 +6,7 @@ public class CriarSessaoDeEstudoCaseImpl implements CriarSessaoDeEstudoCase{
 
     @Override
     public StudySession execute(StudySession session){
-        return session;
+        return null;
     }
 
 }
