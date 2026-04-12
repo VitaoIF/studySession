@@ -1,6 +1,6 @@
 package com.studysession.studySession.core.entities;
 
-import com.studysession.studySession.core.enums.Dificulty;
+import com.studysession.studySession.core.enums.Difficulty;
 
 import java.time.LocalDate;
 
@@ -11,10 +11,10 @@ public class StudySession {
     private Integer durationMinutes;
     private LocalDate localDate;
     private String notes;
-    private Dificulty dificulty;
+    private Difficulty difficulty;
 
-    public StudySession(Dificulty dificulty, Integer durationMinutes, Long id, LocalDate localDate, String notes, String subject) {
-        this.dificulty = dificulty;
+    public StudySession(Difficulty difficulty, Integer durationMinutes, Long id, LocalDate localDate, String notes, String subject) {
+        this.difficulty = difficulty;
         this.durationMinutes = durationMinutes;
         this.id = id;
         this.localDate = localDate;
@@ -25,12 +25,12 @@ public class StudySession {
     public StudySession() {
     }
 
-    public Dificulty getDificulty() {
-        return dificulty;
+    public Difficulty getDifficulty() {
+        return difficulty;
     }
 
-    public void setDificulty(Dificulty dificulty) {
-        this.dificulty = dificulty;
+    public void setDifficulty(Difficulty difficulty) {
+        this.difficulty = difficulty;
     }
 
     public Integer getDurationMinutes() {
