@@ -2,6 +2,7 @@ package com.studysession.studySession.infra.dto;
 
 import com.studysession.studySession.core.enums.Difficulty;
 
+
 import java.time.LocalDate;
 
 public record StudySessionDto(
